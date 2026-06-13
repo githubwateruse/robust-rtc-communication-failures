@@ -1,4 +1,4 @@
-# WR112299 implementation materials
+# Information-aware multi-policy control for urban drainage systems under communication failures
 
 This repository provides the core implementation materials for the manuscript:
 
@@ -127,3 +127,13 @@ Although the scripts have been reorganized and machine-specific paths have been 
 
 The provided scripts are therefore best understood as research implementation materials for reproducing and understanding the main experimental workflow, rather than as a fully packaged software application.
 
+## Acknowledgements
+
+This repository uses the Astlingen SWMM benchmark model introduced by Sun et al. (2020):
+
+Sun, C., Svensen, J. L., Borup, M., Puig, V., Cembrano, G., and Vezzaro, L. (2020). *An MPC-Enabled SWMM Implementation of the Astlingen RTC Benchmarking Network*. Water, 12(4), 1034. https://doi.org/10.3390/w12041034
+
+The Astlingen SWMM model files are available from the open-toolbox repository:
+https://github.com/open-toolbox/SWMM-Astlingen
+
+We sincerely acknowledge the authors for developing and publicly providing the Astlingen SWMM benchmark model.
